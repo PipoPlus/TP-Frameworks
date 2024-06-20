@@ -13,7 +13,9 @@ public class Start {
 
 
     public void init(){
-        framework = new Framework(config.configToActionsList(pathConfig));
+        framework = new Framework(config.configToActionsList(pathConfig), config.getMaxThreads(pathConfig));
         framework.mostrarMenu();
     }
+
+
 }

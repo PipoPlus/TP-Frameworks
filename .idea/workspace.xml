@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="TrabajoFinal-FrameWorks:jar2" />
+      <artifact name="TrabajoFinal-FrameWorks:jar4" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="Punto 3 Terminado. Nuevo Jar 1.1 Incluido">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TrabajoFinal_FrameWorks_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TrabajoFinal_FrameWorks_jar2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
+    <list default="true" id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="Punto 4 Terminado. Nuevo Jar 1.2 Incluido">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/AccionAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Framework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Framework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionDos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionTres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionUno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionUno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/resources",
+    "last_opened_file_path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/java/rodriguez.framework",
     "onboarding.tips.debug.path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
@@ -53,8 +54,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\elrod\OneDrive\Escritorio\Cosas\Uni\OO2\TRABAJO FINAL FRAMEWORK\TrabajoFinal-FrameWorks\src\main\java\rodriguez.framework" />
       <recent name="C:\Users\elrod\OneDrive\Escritorio\Cosas\Uni\OO2\TRABAJO FINAL FRAMEWORK\TrabajoFinal-FrameWorks\src\main\resources" />
       <recent name="C:\Users\elrod\OneDrive\Escritorio\Cosas\Uni\OO2\TRABAJO FINAL FRAMEWORK\TrabajoFinal-FrameWorks\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rodriguez.framework" />
     </key>
   </component>
   <component name="RunManager">
@@ -126,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718915789249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Punto 4 Terminado. Nuevo Jar 1.2 Incluido">
+      <option name="closed" value="true" />
+      <created>1718916287141</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718916287141</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -134,7 +147,8 @@
     <MESSAGE value="Punto 2 Terminado" />
     <MESSAGE value="Punto 2 Terminado. (MODIFIQUE EL JAR)" />
     <MESSAGE value="Punto 3 Terminado. Nuevo Jar 1.1 Incluido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Punto 3 Terminado. Nuevo Jar 1.1 Incluido" />
+    <MESSAGE value="Punto 4 Terminado. Nuevo Jar 1.2 Incluido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Punto 4 Terminado. Nuevo Jar 1.2 Incluido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

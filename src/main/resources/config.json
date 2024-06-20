@@ -1,5 +1,5 @@
 {
 
-  "acciones": ["rodriguez.utilizacion.AccionUno", "rodriguez.utilizacion.AccionDos", "rodriguez.utilizacion.AccionTres"]
+  "acciones": ["rodriguez.utilizacion.AccionUno", "rodriguez.utilizacion.AccionDos", "rodriguez.utilizacion.AccionTres"],"max-threads": 2
 
 }
