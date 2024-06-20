@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TrabajoFinal-FrameWorks:jar2" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Accion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Framework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionDos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionTres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionUno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+    <list default="true" id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="Punto 3 Terminado. Nuevo Jar 1.1 Incluido">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TrabajoFinal_FrameWorks_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TrabajoFinal_FrameWorks_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +41,14 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/resources",
-    "onboarding.tips.debug.path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,7 +86,55 @@
       <option name="presentableId" value="Default" />
       <updated>1718914357537</updated>
     </task>
+    <task id="LOCAL-00001" summary="Punto 1 Terminado">
+      <option name="closed" value="true" />
+      <created>1718915000459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718915000459</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Punto 2 Terminado">
+      <option name="closed" value="true" />
+      <created>1718915138208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718915138208</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Punto 2 Terminado. (MODIFIQUE EL JAR)">
+      <option name="closed" value="true" />
+      <created>1718915269921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718915269921</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Punto 3 Terminado. Nuevo Jar 1.1 Incluido">
+      <option name="closed" value="true" />
+      <created>1718915688298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718915688298</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Punto 3 Terminado. Nuevo Jar 1.1 Incluido">
+      <option name="closed" value="true" />
+      <created>1718915789249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718915789249</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Punto 1 Terminado" />
+    <MESSAGE value="Punto 2 Terminado" />
+    <MESSAGE value="Punto 2 Terminado. (MODIFIQUE EL JAR)" />
+    <MESSAGE value="Punto 3 Terminado. Nuevo Jar 1.1 Incluido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Punto 3 Terminado. Nuevo Jar 1.1 Incluido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
