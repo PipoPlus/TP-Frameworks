@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Accion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Framework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionDos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionTres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionUno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2i9svGJHvTObZEgVuEpl8xKRBda" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/resources",
+    "onboarding.tips.debug.path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\elrod\OneDrive\Escritorio\Cosas\Uni\OO2\TRABAJO FINAL FRAMEWORK\TrabajoFinal-FrameWorks\src\main\resources" />
+      <recent name="C:\Users\elrod\OneDrive\Escritorio\Cosas\Uni\OO2\TRABAJO FINAL FRAMEWORK\TrabajoFinal-FrameWorks\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rodriguez.main.Main" />
+      <module name="TrabajoFinal-FrameWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rodriguez.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="" />
+      <created>1718914357537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718914357537</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
