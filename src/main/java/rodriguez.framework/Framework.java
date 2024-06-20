@@ -15,7 +15,7 @@ public class Framework {
     }
 
     public void mostrarMenu() {
-        // Crear el marco de la aplicación
+        // Crear el marco de la aplicacion
         JFrame frame = new JFrame("Menú de Acciones");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 400);
@@ -33,7 +33,7 @@ public class Framework {
         gbc.insets = new Insets(5, 5, 5, 5);
         gbc.weightx = 1.0;
 
-        // Añadir checkboxes y etiquetas de descripción para cada acción
+        // Añadir checkboxes y etiquetas de descripción para cada accin
         JCheckBox[] checkBoxes = new JCheckBox[acciones.size()];
         for (int i = 0; i < acciones.size(); i++) {
             Accion accion = acciones.get(i);
@@ -50,7 +50,7 @@ public class Framework {
             panel.add(descriptionLabel, gbc);
         }
 
-        // Añadir botón para ejecutar acciones seleccionadas
+        // Añadir boton para ejecutar acciones seleccionadas
         JButton executeButton = new JButton("Ejecutar Seleccionadas");
         executeButton.setFont(new Font("Arial", Font.BOLD, 14));
         executeButton.setBackground(new Color(173, 216, 230));
@@ -71,7 +71,7 @@ public class Framework {
         gbc.gridwidth = 2;
         panel.add(executeButton, gbc);
 
-        // Añadir botón para salir
+        // Añadir boton para salir
         JButton exitButton = new JButton("Salir");
         exitButton.setFont(new Font("Arial", Font.BOLD, 14));
         exitButton.setBackground(new Color(255, 182, 193));
