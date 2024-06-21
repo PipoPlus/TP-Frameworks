@@ -16,15 +16,19 @@ import java.util.Properties;
 
 public class Configuracion {
 
+    public static final String MAX_THREADS = "max-threads";
+    public static final String PROPERTIES_EXTENSION = ".properties";
+    public static final String JSON_EXTENSION = ".json";
+
     public List<Accion> configToActionsList(String path) {
         List<Accion> acciones = new ArrayList<>();
 
         try (InputStream input = new FileInputStream(path)) {
-            if (path.endsWith(".properties")) {
+            if (path.endsWith(PROPERTIES_EXTENSION)) {
                 // Manejar archivo .properties
                 lectorArchivoProperties(input, acciones);
 
-            } else if (path.endsWith(".json")) {
+            } else if (path.endsWith(JSON_EXTENSION)) {
                 // Manejar archivo .json
                 lectorArchivoJson(input, acciones);
 
@@ -53,7 +57,7 @@ public class Configuracion {
         properties.load(input);
 
         for (String key : properties.stringPropertyNames()) {
-            if(!key.equals("max-threads")) {
+            if(!key.equals(MAX_THREADS)) {
                 acciones.add(crearAccion(properties.getProperty(key)));
             }
         }
@@ -63,9 +67,9 @@ public class Configuracion {
         int maxThreads = 1; // Valor predeterminado si no se encuentra la configuración
 
         try (InputStream input = new FileInputStream(path)) {
-            if (path.endsWith(".properties")) {
+            if (path.endsWith(PROPERTIES_EXTENSION)) {
                 maxThreads = getMaxThreadsProperties(input, maxThreads);
-            } else if (path.endsWith(".json")) {
+            } else if (path.endsWith(JSON_EXTENSION)) {
                 maxThreads = getMaxThreadsJson(input, maxThreads);
             }
         } catch (IOException e) {
@@ -77,8 +81,8 @@ public class Configuracion {
 
     private static int getMaxThreadsJson(InputStream input, int maxThreads) {
         JSONObject jsonObject = new JSONObject(new JSONTokener(input));
-        if (jsonObject.has("max-threads")) {
-            maxThreads = jsonObject.getInt("max-threads");
+        if (jsonObject.has(MAX_THREADS)) {
+            maxThreads = jsonObject.getInt(MAX_THREADS);
         }
         return maxThreads;
     }
@@ -86,7 +90,7 @@ public class Configuracion {
     private static int getMaxThreadsProperties(InputStream input, int maxThreads) throws IOException {
         Properties properties = new Properties();
         properties.load(input);
-        String maxThreadsStr = properties.getProperty("max-threads");
+        String maxThreadsStr = properties.getProperty(MAX_THREADS);
         if (maxThreadsStr != null) {
             maxThreads = Integer.parseInt(maxThreadsStr);
         }

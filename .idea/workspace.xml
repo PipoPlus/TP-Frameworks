@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="TrabajoFinal-FrameWorks:jar4" />
+      <artifact name="TrabajoFinal-FrameWorks:jar5" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="Punto 5 Terminado. Correccion de codigo (Hay que actualizar el Jar 1.3)" />
+    <list default="true" id="d33f8d42-545e-49b0-ab25-6b19dfaf1777" name="Changes" comment="Punto 5 Terminado. Nuevo Jar Corregido">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodriguez.utilizacion/AccionCuatro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Configuracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Framework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodriguez.framework/Framework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +48,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/java/rodriguez.framework",
+    "last_opened_file_path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/Tp-Frameworks",
     "onboarding.tips.debug.path": "C:/Users/elrod/OneDrive/Escritorio/Cosas/Uni/OO2/TRABAJO FINAL FRAMEWORK/TrabajoFinal-FrameWorks/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,6 +63,7 @@
       <recent name="C:\Users\elrod\OneDrive\Escritorio\Cosas\Uni\OO2\TRABAJO FINAL FRAMEWORK\TrabajoFinal-FrameWorks\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rodriguez.utilizacion" />
       <recent name="rodriguez.framework" />
     </key>
   </component>
@@ -152,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719005622350</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Punto 5 Terminado. Nuevo Jar Corregido">
+      <option name="closed" value="true" />
+      <created>1719005832226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719005832226</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,7 +179,8 @@
     <MESSAGE value="Punto 4 Terminado. Nuevo Jar 1.2 Incluido" />
     <MESSAGE value="Punto 5 Terminado. Nuevo Jar 1.3 Incluido" />
     <MESSAGE value="Punto 5 Terminado. Correccion de codigo (Hay que actualizar el Jar 1.3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Punto 5 Terminado. Correccion de codigo (Hay que actualizar el Jar 1.3)" />
+    <MESSAGE value="Punto 5 Terminado. Nuevo Jar Corregido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Punto 5 Terminado. Nuevo Jar Corregido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

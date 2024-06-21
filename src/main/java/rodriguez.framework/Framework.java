@@ -81,7 +81,7 @@ public class Framework {
                 executor.shutdown(); // Indicar que no se aceptarán más tareas
 
                 // Verificación de threads
-                //verificaEstadosThreads(executor);
+                verificaEstadosThreads(executor);
 
             }
         });
@@ -115,7 +115,7 @@ public class Framework {
     private static void verificaEstadosThreads(ExecutorService executor) {
         try {
             // Espera a que todos los threads terminen (con un timeout de 5 segundos)
-            if (!executor.awaitTermination(7, TimeUnit.SECONDS)) {
+            if (!executor.awaitTermination(5, TimeUnit.SECONDS)) {
                 System.err.println("Error: Algunos threads no terminaron en el tiempo esperado.");
                 // Puedes agregar más acciones aquí, como mostrar un mensaje al usuario
             } else {
